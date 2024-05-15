@@ -16,6 +16,7 @@ public class Day21 {
 	 */
 	public int main(int a, int d, boolean[] included) {
         int answer = 0;
+        //반복문을 이용해 배열의 값이 참일때(if문) index값 만큼 더하기 
         for(int i = 0 ; i < included.length ; i++) {
             if(included[i] == true) {
                 answer += a;
