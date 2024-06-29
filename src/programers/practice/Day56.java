@@ -22,6 +22,7 @@ public class Day56 {
         for(int i = 0 ; i < num_list.length ; i++){
             if(num_list[i] < 0){
                 answer = i;
+                return answer;
             }else{
                 answer = -1;
             }
